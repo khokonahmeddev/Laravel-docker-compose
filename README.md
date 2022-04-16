@@ -53,7 +53,8 @@
 
 # Migration your project
 
-#Note
+# Note
+
 ```If you have Laravel Project installed in your src folder then you use this command.```
 
 `docker-compose exec php php /var/www/html/artisan migrate`
