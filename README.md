@@ -17,6 +17,11 @@
 
 `docker ps -a`
 
+# Remove this mysql folder in file
+
+`rm -rf README.md`
+
+
 # Build your project
 
 `docker-compose up -d --build`
@@ -53,14 +58,27 @@
 
 # Note
 
-```Use this command in the src folder```
+```Use this command in the src empty```
 
-`composer create-project laravel/laravel .`
+`cd src` 
+
+`rm -rf public`
+
+`docker-compose run --rm composer create-project laravel/laravel .`
 
 # Docker project down 
 
 # Note 
+
 ``If you want to stop your project use this command``
 
 `docker-compose down`
+
+# Docker project delete with database
+
+`docker system prune -a --volumes`
+
+# Docker project without database
+
+`docker system prune -a`
 
