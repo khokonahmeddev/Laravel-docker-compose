@@ -59,5 +59,8 @@
 
 # Docker project down 
 
+# Note 
+``If you want to stop your project use this command``
+
 `docker-compose down`
 
