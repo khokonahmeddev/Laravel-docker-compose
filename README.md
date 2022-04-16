@@ -68,6 +68,10 @@
 
 `docker-compose run --rm npm run dev`
 
+# Project directory check
+
+` docker-compose exec php sh`
+
 # Docker project down 
 
 # Note 
